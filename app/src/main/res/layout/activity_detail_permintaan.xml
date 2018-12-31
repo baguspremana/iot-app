@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.permintaanverif.detailpermintaanverif.DetailPermintaanActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:background="@drawable/wallpaper"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:padding="15dp"
+        android:elevation="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detail Pemintaan Verif"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#d2d2d2"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            style="@style/label"
+            android:text="Nama Member"/>
+        <TextView
+            android:id="@+id/tv_detail_name_member"
+            style="@style/tvStyle"
+            android:text="User"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="8dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#d2d2d2"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            style="@style/label"
+            android:text="Kode Rekening" />
+        <TextView
+            android:id="@+id/tv_detail_rek_number"
+            style="@style/tvStyle"
+            android:text="SMART_BIN"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="8dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#d2d2d2"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            style="@style/label"
+            android:text="Nama Barang Bekas"/>
+        <TextView
+            android:id="@+id/tv_detail_name_rubbish_verif"
+            style="@style/tvStyle"
+            android:text="Kardus"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="8dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#d2d2d2"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            style="@style/label"
+            android:text="Total Berat" />
+        <TextView
+            android:id="@+id/tv_detail_berat"
+            style="@style/tvStyle"
+            android:text="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="8dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#d2d2d2"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            style="@style/label"
+            android:text="Harga Barang per Gram" />
+        <TextView
+            android:id="@+id/tv_detail_harga_satuan"
+            style="@style/tvStyle"
+            android:text="Rp1.000"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="8dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#d2d2d2"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            style="@style/label"
+            android:text="Tanggal Kirim" />
+        <TextView
+            android:id="@+id/tv_detail_updated"
+            style="@style/tvStyle"
+            android:text="27 November 2018"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="8dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#d2d2d2"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <Button
+            android:id="@+id/btnVerif"
+            style="@style/btnStyle"
+            android:layout_marginTop="5dp"
+            android:text="Verifikasi"
+            android:layout_marginBottom="5dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

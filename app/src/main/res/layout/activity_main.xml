@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".auth.LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/garbage"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                style="@style/judul"
+                android:layout_marginTop="10dp"
+                android:text="SmartBin"
+                android:layout_marginBottom="30dp"/>
+
+            <TextView
+                style="@style/label"
+                android:text="E-Mail"/>
+            <EditText
+                android:id="@+id/et_email_login"
+                style="@style/etStyle"
+                android:hint="Input Email Anda"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                style="@style/label"
+                android:text="Password"/>
+            <EditText
+                android:id="@+id/et_password_login"
+                style="@style/etStyle"
+                android:hint="Input Pasword Anda"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:inputType="textPassword"/>
+
+            <Button
+                android:id="@+id/btn_login"
+                style="@style/btnStyle"
+                android:text="Login"
+                android:layout_marginBottom="15dp"
+                android:elevation="6dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+                <TextView
+                    style="@style/tvStyle"
+                    android:text="Belum Punya Akun? "/>
+                <TextView
+                    android:id="@+id/tv_register"
+                    style="@style/tvStyleSatu"
+                    android:text="Register"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

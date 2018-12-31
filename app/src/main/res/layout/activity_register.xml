@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".auth.RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/garbage"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                style="@style/judul"
+                android:layout_marginTop="10dp"
+                android:text="SmartBin"
+                android:layout_marginBottom="30dp"/>
+
+            <TextView
+                style="@style/label"
+                android:text="Nama"/>
+            <EditText
+                android:id="@+id/et_nama_register"
+                style="@style/etStyle"
+                android:hint="Input Nama Anda"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                style="@style/label"
+                android:text="E-Mail"/>
+            <EditText
+                android:id="@+id/et_email_register"
+                style="@style/etStyle"
+                android:hint="Input Email Anda"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                style="@style/label"
+                android:text="Password"/>
+            <EditText
+                android:id="@+id/et_password_register"
+                style="@style/etStyle"
+                android:hint="Input Pasword Anda"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:inputType="textPassword"/>
+
+            <Button
+                android:id="@+id/btn_regis"
+                style="@style/btnStyle"
+                android:text="Register"
+                android:layout_marginBottom="15dp"
+                android:elevation="6dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

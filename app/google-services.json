@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "898348432915",
+    "firebase_url": "https://fcm-iot-f3943.firebaseio.com",
+    "project_id": "fcm-iot-f3943",
+    "storage_bucket": "fcm-iot-f3943.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898348432915:android:9889ba8b2b344c28",
+        "android_client_info": {
+          "package_name": "com.example.user_pc.iotapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898348432915-97v6i3ri12eadasqopf5vc87dtqeoane.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user_pc.iotapp",
+            "certificate_hash": "d3936a8acba28e507ce11d73051e0315a14e758a"
+          }
+        },
+        {
+          "client_id": "898348432915-t037r8qqd027omrd1pd5uhfdbpf395du.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsY81W6NwVz2jZU3H-iEf6ZejNExIvXrE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898348432915-t037r8qqd027omrd1pd5uhfdbpf395du.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

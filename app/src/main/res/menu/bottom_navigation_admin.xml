@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_list"
+        android:icon="@drawable/ic_view_list"
+        android:enabled="true"
+        android:title="Belum Verif"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/nav_verif"
+        android:icon="@drawable/ic_playlist"
+        android:enabled="true"
+        android:title="Terverifikasi"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/nav_saldo"
+        android:icon="@drawable/ic_account_balance"
+        android:enabled="true"
+        android:title="Saldo User"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_person_black"
+        android:enabled="true"
+        android:title="Profile"
+        app:showAsAction="ifRoom"/>
+
+</menu>
